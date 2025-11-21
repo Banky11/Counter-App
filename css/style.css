@@ -1,0 +1,80 @@
+body{
+    display: block;
+    text-align: center;
+}
+main{
+    background-image: url("/images/9adc122640e8c7bacd1f7945316b3f14.jpg");
+    background-size: cover;
+    width: 300px;
+    justify-self: center;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+
+}
+h1{
+    font-size: bold;
+    color: brown;
+}
+h2{
+    font-size: 50px;
+    color: brown;
+}
+button{
+   padding: 10px;
+   background-color: brown;
+   border: none;
+}
+#increament{
+    color: white;
+}
+#decrease{
+    color: white;
+}
+#reset{
+    color: white;
+}
+#saved{
+    color: white;
+}
+.btn{
+    margin: 10px;
+    border-radius: 20px;
+    background-color: cadetblue;
+    width: 250px;
+    justify-self: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.innerbtn{
+    padding-bottom: 20px;
+}
+.increament{
+   padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: black;
+}
+.decreament{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: blue;
+}
+.reset{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: red;
+}
+.saved{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: green;
+}
