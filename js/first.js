@@ -7,7 +7,9 @@ function increament(){
     c1.innerText = count;
 }
 function decreament() {
-    count = count - 1;
+    if (count > 0)   {
+   count -=  1;
+    }
     c1.innerText = count;
 }
 function reset() {
