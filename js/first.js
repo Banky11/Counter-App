@@ -15,5 +15,5 @@ function reset() {
     c1.innerText = 0;
 }
 function saved() {
-    alert("count saved: " + count)
+    alert("Your Favourite Number is " + count)
 }

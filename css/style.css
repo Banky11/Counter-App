@@ -14,12 +14,16 @@ main{
 
 }
 h1{
-    font-size: bold;
+    font-weight: bold;
+    font-size: 25px;
     color: brown;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 h2{
-    font-size: 50px;
+    font-size: 40px;
     color: brown;
+    padding: 0;
 }
 button{
    padding: 10px;
@@ -58,12 +62,18 @@ button{
     background-color: black;
     color: white;
 }
+.increament:hover{
+    background-color: rgb(14, 1, 37);
+}
 .decreament{
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 15px;
     padding-bottom: 15px;
     background-color: blue;
+}
+.decreament:hover{
+    background-color: rgb(15, 15, 161);
 }
 .reset{
     padding-left: 40px;
@@ -72,10 +82,16 @@ button{
     padding-bottom: 15px;
     background-color: red;
 }
+.reset:hover{
+    background-color: rgb(143, 6, 6);
+}
 .saved{
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 15px;
     padding-bottom: 15px;
     background-color: green;
+}
+.saved:hover{
+    background-color: rgb(1, 73, 1);
 }
